@@ -12,7 +12,7 @@ category2 = categories[13:24]
 #Price variables
 bubblegum_price = "$1.50"
 chocolate_price = "$2.00"
-pasta_price = "5.40"
+pasta_price = "$5.40"
 #Print names, prices and categories
 print("We have", candy1, "for", bubblegum_price, "in the", category1)
 print("We have", candy2, "for", chocolate_price, "in the", category1)
