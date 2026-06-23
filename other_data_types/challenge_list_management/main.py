@@ -6,11 +6,12 @@ condiment = ["Mustard", "1.99", "75", "Spicy"]
 deli_dept = [meat, cheese, condiment]
 print("Initial Deli List:", deli_dept)
 #restock item
-
+if meat == "Ham" < 100:
+    print("Restock its quantity to 100")
 #add seasonal meat
 seasonal_meat = ["Turkey", "4.50", "100", "Sliced"]
 #append deli_dept to seasonal_meat
-seasonal_meat.append(deli_dept)
+deli_dept.append(seasonal_meat)
 #remove condiment from deli_dept
 deli_dept.remove(condiment)
 #sort deli_dept
