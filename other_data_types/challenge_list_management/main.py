@@ -8,7 +8,7 @@ print("Initial Deli List:", deli_dept)
 #restock item
 if meat[0] == "Ham": 
     if meat[2] < "100":
-        meat[2] = 100
+        meat[2] = "100"
         print("Restock its quantity to 100")
     else:
         meat[2] = "100"
